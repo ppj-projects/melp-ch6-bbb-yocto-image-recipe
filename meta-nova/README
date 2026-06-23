@@ -1,41 +1,4 @@
-This README file contains information on the contents of the nova layer.
+This repo was made to go along with the Mastering Embedded Linux Programming 3rd edition book.
 
-Please see the corresponding sections below for details.
-
-Dependencies
-============
-
-  URI: <first dependency>
-  branch: <branch name>
-
-  URI: <second dependency>
-  branch: <branch name>
-
-  .
-  .
-  .
-
-Patches
-=======
-
-Please submit any patches against the nova layer to the xxxx mailing list (xxxx@zzzz.org)
-and cc: the maintainer:
-
-Maintainer: XXX YYYYYY <xxx.yyyyyy@zzzzz.com>
-
-Table of Contents
-=================
-
-  I. Adding the nova layer to your build
- II. Misc
-
-
-I. Adding the nova layer to your build
-=================================================
-
-Run 'bitbake-layers add-layer nova'
-
-II. Misc
-========
-
---- replace with specific information about the nova layer ---
+I created a Yocto layer that creates a package called helloworld, which contains a simple helloworld executable. 
+The layer also contains an image recipe for building the beaglebone black image and including this helloworld package (as well as strace)
